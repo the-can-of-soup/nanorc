@@ -3,7 +3,7 @@ syntax "JSONC" "\.jsonc$"
 #   // -*- mode: jsonc -*-
 # or:
 #   // -*- jsonc -*-
-header "^\s*//\s*-\*-\s*(mode:\s*)?jsonc\s*-\*-\s*$"
+header "^\s*//.*-\*-\s*(mode:\s*)?jsonc\s*-\*-.*$"
 comment "/*|*/"
 
 color orange        "\<[-]?[1-9][0-9]*([Ee][+-]?[0-9]+)?\>"  "\<[-]?[0](\.[0-9]+)?\>"
